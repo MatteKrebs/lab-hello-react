@@ -5,9 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
-      <Navigation />
-
+      <div id='nav-and-welcome'>
+              <Navigation />
+              <br />
+              <h1 id='hello'>Say hello to 
+                <br />
+                ReactJS</h1>
+      </div>
       <Gallery />
     </div>
   );

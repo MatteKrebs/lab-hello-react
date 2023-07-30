@@ -12,12 +12,25 @@ body {
   justify-content: space-between;
 }
 
-.gallery {
+#gallery {
   display: flex;
   justify-content: space-around;
+}
+
+#nav-and-welcome {
+  background-color: #222222;
+  height: 700px
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#hello {
+  color: white;
+  margin-top: -10px;
+  padding: 50px;
+  font-size: 150px;
+  text-align: left;
 }
